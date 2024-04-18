@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 
-	"github.com/arnouthoebreckx/terraform-provider-synology/client"
+	"github.com/appkins-org/terraform-provider-synology/client"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

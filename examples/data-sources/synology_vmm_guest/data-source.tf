@@ -2,7 +2,7 @@ terraform {
   required_providers {
     synology = {
       version = "0.2.0"
-      source  = "github.com/arnouthoebreckx/synology"
+      source  = "github.com/appkins-org/synology"
     }
   }
 }

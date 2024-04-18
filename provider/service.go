@@ -1,10 +1,11 @@
 package provider
 
 import (
-	"github.com/arnouthoebreckx/terraform-provider-synology/client"
 	"log"
 	"path/filepath"
 	"strconv"
+
+	"github.com/appkins-org/terraform-provider-synology/client"
 )
 
 type FileItemService struct {

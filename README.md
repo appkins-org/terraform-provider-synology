@@ -18,7 +18,7 @@ You don't need to install the golang development environment if you already have
 docker-compose build --no-cache && docker-compose run app make clean build test release
 ```
 
-After this, pick up the version specifically compiled for your OS and architecture from `./bin` and put it in `$HOME/.terraform.d/plugins/github.com/arnouthoebreckx/synology/0.1/$OS_$ARCH/terraform-provider-synology`
+After this, pick up the version specifically compiled for your OS and architecture from `./bin` and put it in `$HOME/.terraform.d/plugins/github.com/appkins-org/synology/0.1/$OS_$ARCH/terraform-provider-synology`
 
 
 ## Acceptance Tests
@@ -34,7 +34,7 @@ terraform {
   required_providers {
     synology = {
       version = "0.2.0"
-      source = "github.com/arnouthoebreckx/synology"
+      source = "github.com/appkins-org/synology"
     }
   }
 }
@@ -86,7 +86,7 @@ terraform {
   required_providers {
     synology = {
       version = "0.2.0"
-      source = "github.com/arnouthoebreckx/synology"
+      source = "github.com/appkins-org/synology"
     }
   }
 }
