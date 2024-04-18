@@ -7,7 +7,7 @@ toolchain go1.22.2
 require (
 	github.com/client9/misspell v0.3.4
 	github.com/golangci/golangci-lint v1.57.2
-	github.com/hashicorp/terraform-plugin-docs v0.14.1
+	github.com/hashicorp/terraform-plugin-docs v0.19.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.25.0
 	github.com/katbyte/terrafmt v0.5.3
 )
