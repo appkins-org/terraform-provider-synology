@@ -1,0 +1,1405 @@
+{
+  "data": {
+      "has_fail": false,
+      "result": [
+          {
+              "api": "SYNO.Docker.Container",
+              "data": {
+                  "containers": [
+                      {
+                          "Labels": {
+                              "com.docker.compose.config-hash": "bc141588b7447c302c9d161166d4ef14e83e2ddabeb53d7e82c5cde7128c1787",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:e5a563581b3c725e0d46b16f68d66bf00a7178faba9e6b8961005899da86d30c",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "portainer",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer",
+                              "com.docker.compose.replace": "ae42aed225a08ecb82fffbe809c786dd5d94e00fb62d5de05cc4ff14d6b0235d",
+                              "com.docker.compose.service": "portainer",
+                              "com.docker.compose.version": "2.25.0",
+                              "io.portainer.server": "true"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "web": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "05f9ff4f6c0e76ad9ff7e2a99a301da6322d4b1d9b9268d6bf9dbe4cdc45e3a4",
+                                      "Gateway": "192.168.16.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "192.168.16.2",
+                                      "IPPrefixLen": 20,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:c0:a8:10:02",
+                                      "NetworkID": "a2b9898e0542f247d06dcc2eaa5c300e1770b2dfeb8c9a6c9e5dc3324fbb5425"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 23292,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:13:55.895755076Z",
+                              "StartedTs": 1712726035,
+                              "Status": "running"
+                          },
+                          "cmd": "/portainer",
+                          "created": 1712726027,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "5d1f943cf22c3e512f96830969cd933f6a9d782b750b916fe5091c64718c642b",
+                          "image": "portainer/portainer-ee:2.20.1",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "portainer",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 19 minutes",
+                          "up_time": 1712726035
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 2.10.0-ls294 Build-date:- 2024-04-06T03:21:38+00:00",
+                              "com.docker.compose.config-hash": "d7cd32afcc71360d93891613e8d4af8451e7724efe1d1084dc81e4e0a56f31dc",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_started:true,sonarr:service_healthy:false,dockerproxy:service_started:false,organizr:service_started:false,radarr:service_healthy:false",
+                              "com.docker.compose.image": "sha256:a1e760c8561bf105634c6e6c3758fdce08736ff55c8980e369ac2effef3d7b63",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "534eb7298ae7fb07e0ff79cf47ac372d5fdf881b6d4abd6c360b3a3ad90c3997",
+                              "com.docker.compose.service": "swag",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "nemchik",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-06T03:21:38+00:00",
+                              "org.opencontainers.image.description": "SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-swag",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "5c58fa9383cba0fee2f7e7bb4eb9b8a2d8029275",
+                              "org.opencontainers.image.revision": "5c58fa9383cba0fee2f7e7bb4eb9b8a2d8029275",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-swag",
+                              "org.opencontainers.image.title": "Swag",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-swag/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "2.10.0-ls294"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "4ed4a2d910b4d861d9676d8c375f877ddbd44eba26aadc370418f28d8c47afe9",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.8",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:08",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 18978,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:12:04.212166355Z",
+                              "StartedTs": 1712725924,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725822,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "119072ccc037bb21f3acf02891b06d9122bb469aad0b0d24f7d796064c00bd4e",
+                          "image": "docker.io/linuxserver/swag",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "swag",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 21 minutes",
+                          "up_time": 1712725924
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- v4.43.5-ls187 Build-date:- 2024-04-06T22:29:12+00:00",
+                              "com.docker.compose.config-hash": "554207b21b716e8d7bde0e853eb77ed30f47a6c6a8713df4b347b7394a5ce010",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "prowlarr:service_healthy:false,vpn:service_started:true",
+                              "com.docker.compose.image": "sha256:d18ef52dc576fbe95cda5afbc573a6302aa86afb3fa4616a715fb5f3c1a4463b",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "cd91e4ced2027ee3178825c27c548f55a21731b2462eed088e4cc6be96a4366e",
+                              "com.docker.compose.service": "ombi",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "aptalca",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-06T22:29:12+00:00",
+                              "org.opencontainers.image.description": "[Ombi](https://ombi.io) allows you to host your own Plex Request and user management system.  If you are sharing your Plex server with other users, allow them to request new content using an easy to manage interface!  Manage all your requests for Movies and TV with ease, leave notes for the user and get notification when a user requests something.  Allow your users to post issues against their requests so you know there is a problem with the audio etc.  Even automatically send them weekly newsletters of new content that has been added to your Plex server!",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-ombi",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "9943b301d150c86e76d028fe1a635ea7d3794669",
+                              "org.opencontainers.image.revision": "9943b301d150c86e76d028fe1a635ea7d3794669",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-ombi",
+                              "org.opencontainers.image.title": "Ombi",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-ombi/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "v4.43.5-ls187",
+                              "swag": "enable",
+                              "swag_port": "3579"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "62fea042c6bc0d7c9bb4c0026b705cef4bd72b8d2e5121a65ce3a98b56001196",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.7",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:07",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 18771,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:12:00.641456296Z",
+                              "StartedTs": 1712725920,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725822,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "d948922a992ec5e8a846452faac54b19fa4754e4bc076f7e7957b2db74024a1b",
+                          "image": "linuxserver/ombi:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "ombi",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 21 minutes",
+                          "up_time": 1712725920
+                      },
+                      {
+                          "Labels": {
+                              "base.maintainer": "christronyxyocum,Roxedus",
+                              "base.s6.arch": "amd64",
+                              "base.s6.rel": "2.2.0.3",
+                              "com.docker.compose.config-hash": "a32840d6a9ee04d067b3ee52ee192c6b9b97452d46410d6579563d7e427f0956",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:339c43a2488584da5fe668d180dcfa9e6bbb4801aa34f794430d808b3760cc25",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "0da76af285868ed8132f98818a6d0802dab1f37060ed4ac8a10fdc95113715fe",
+                              "com.docker.compose.service": "organizr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "christronyxyocum,Roxedus",
+                              "org.label-schema.description": "Baseimage for Organizr",
+                              "org.label-schema.name": "organizr/base",
+                              "org.label-schema.schema-version": "1.0",
+                              "org.label-schema.url": "https://organizr.app/",
+                              "org.label-schema.vcs-url": "https://github.com/organizr/docker-base",
+                              "org.opencontainers.image.created": "2023-12-02_21",
+                              "org.opencontainers.image.source": "https://github.com/Organizr/docker-organizr/tree/master",
+                              "org.opencontainers.image.title": "organizr/base",
+                              "org.opencontainers.image.url": "https://github.com/Organizr/docker-organizr/blob/master/README.md",
+                              "swag": "enable",
+                              "swag_port": "80",
+                              "swag_url": "media.appkins.io"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "8e55179d67936fe225fe0e66ffe021c547432a70ed47686707e1c04fc4d1e28e",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.6",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:06",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:09.865668299-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:31:09.805097409-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:40.141925639-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:31:40.094962309-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:10.387729515-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:32:10.346532086-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:40.671002369-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:32:40.62586505-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:10.898003851-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:33:10.851589208-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14668,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:56.017951284Z",
+                              "StartedTs": 1712725856,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "ea17afd4a9a9abd50fef0a2cdceadf29a2f828e9b6c3494c7803b49d64af2f61",
+                          "image": "organizr/organizr:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "0da76af28586_organizr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725856
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 1.15.0.4361-ls64 Build-date:- 2024-04-10T03:44:30+00:00",
+                              "com.docker.compose.config-hash": "316ba77d2a49499ce091f086efb00a063993aae1b0af6e80746763c679993ee1",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:48c899709be52243be5e9de4bcc7dc82b15d626dc0dec4c18401fa574e5f44cc",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "8f5858e913a502156323503da508568e538dcc287837e1e4f9cafb555b039dcd",
+                              "com.docker.compose.service": "prowlarr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "Roxedus,thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-10T03:44:30+00:00",
+                              "org.opencontainers.image.description": "[Prowlarr](https://github.com/Prowlarr/Prowlarr) is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).  ",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-prowlarr",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "1b361cb7b6d265ad7c9e6a63a2603387f4aa45f3",
+                              "org.opencontainers.image.revision": "1b361cb7b6d265ad7c9e6a63a2603387f4aa45f3",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-prowlarr",
+                              "org.opencontainers.image.title": "Prowlarr",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-prowlarr/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "1.15.0.4361-ls64",
+                              "swag": "enable",
+                              "swag_port": "9696"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:07.717276889-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   843    0   843    0     0   221k      0 --:--:-- --:--:-- --:--:--  411k\n{\n  \"appName\": \"Prowlarr\",\n  \"instanceName\": \"Prowlarr\",\n  \"version\": \"1.15.0.4361\",\n  \"buildTime\": \"2024-03-28T01:19:00Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/prowlarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 39,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"1.15.0.4361-ls64\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n}",
+                                          "Start": "2024-04-10T00:31:07.676768416-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:37.995396529-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   843    0   843    0     0   210k      0 --:--:-- --:--:-- --:--:--  411k\n{\n  \"appName\": \"Prowlarr\",\n  \"instanceName\": \"Prowlarr\",\n  \"version\": \"1.15.0.4361\",\n  \"buildTime\": \"2024-03-28T01:19:00Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/prowlarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 39,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"1.15.0.4361-ls64\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n}",
+                                          "Start": "2024-04-10T00:31:37.954713377-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:08.242015401-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Prowlarr\",\n  \"instanceName\": \"Prowlarr\",\n  \"version\": \"1.15.0.4361\",\n  \"buildTime\": \"2024-03-28T01:19:00Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/prowlarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 39,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"1.15.0.4361-ls64\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n}\r100   843    0   843    0     0   213k      0 --:--:-- --:--:-- --:--:--  411k\n",
+                                          "Start": "2024-04-10T00:32:08.188940882-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:38.548791715-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Prowlarr\",\n  \"instanceName\": \"Prowlarr\",\n  \"version\": \"1.15.0.4361\",\n  \"buildTime\": \"2024-03-28T01:19:00Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/prowlarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 39,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"1.15.0.4361-ls64\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n}\r100   843    0   843    0     0   209k      0 --:--:-- --:--:-- --:--:--  411k\n",
+                                          "Start": "2024-04-10T00:32:38.501879325-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:08.813629963-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Prowlarr\",\n  \"instanceName\": \"Prowlarr\",\n  \"version\": \"1.15.0.4361\",\n  \"buildTime\": \"2024-03-28T01:19:00Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/prowlarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 39,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"1.15.0.4361-ls64\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   843    0   843    0     0   235k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:33:08.76532338-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14386,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:52.582991869Z",
+                              "StartedTs": 1712725852,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "a54d4eea2e6b2bfaf205620868e839b727a0b2f7affef99f665a035b7b4d1623",
+                          "image": "linuxserver/prowlarr:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "8f5858e913a5_prowlarr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725852
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 4.0.3.1413-ls233 Build-date:- 2024-04-01T05:32:00+00:00",
+                              "com.docker.compose.config-hash": "714fcb233e8a1dfe3f7e42cbc89dd9a5d704084f3a4aa7988b71ee29d73f6599",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:f0407815d9a7454872a85e39a36e47fa258d8174f0f42db8bb9060bdd8bfb201",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "c5391bf03070bcb90b0559fe52631f272b9cde7923da949d7f205acb48f6c9dc",
+                              "com.docker.compose.service": "sonarr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-01T05:32:00+00:00",
+                              "org.opencontainers.image.description": "[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.  ",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-sonarr",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "f6481448f1e89a655dc257e9f991691dd40423d5",
+                              "org.opencontainers.image.revision": "f6481448f1e89a655dc257e9f991691dd40423d5",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-sonarr",
+                              "org.opencontainers.image.title": "Sonarr",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-sonarr/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "4.0.3.1413-ls233",
+                              "swag": "enable",
+                              "swag_port": "8989"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:08.387793272-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Sonarr\",\n  \"instanceName\": \"Sonarr\",\n  \"version\": \"4.0.3.1413\",\n  \"buildTime\": \"2024-04-01T05:13:46Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/sonarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"main\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 205,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.13\",\n  \"runtimeName\": \".NET\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"4.0.3.1413-ls233\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\",\n  \"databaseVersion\": \"3.44.2\",\n  \"databaseType\": \"sqLite\"\n\r100   827    0   827    0     0   263k      0 --:--:-- --:--:-- --:--:--  807k\n}",
+                                          "Start": "2024-04-10T00:31:08.347540318-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:38.859476993-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Sonarr\",\n  \"instanceName\": \"Sonarr\",\n  \"version\": \"4.0.3.1413\",\n  \"buildTime\": \"2024-04-01T05:13:46Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/sonarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"main\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 205,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.13\",\n  \"runtimeName\": \".NET\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"4.0.3.1413-ls233\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\",\n  \"databaseVersion\": \"3.44.2\",\n  \"databaseType\": \"sqLite\"\n\r100   827    0   827    0     0   183k      0 --:--:-- --:--:-- --:--:--  403k\n}",
+                                          "Start": "2024-04-10T00:31:38.81509307-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:09.247592942-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Sonarr\",\n  \"instanceName\": \"Sonarr\",\n  \"version\": \"4.0.3.1413\",\n  \"buildTime\": \"2024-04-01T05:13:46Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/sonarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"main\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 205,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.13\",\n  \"runtimeName\": \".NET\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"4.0.3.1413-ls233\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\",\n  \"databaseVersion\": \"3.44.2\",\n  \"databaseType\": \"sqLite\"\n\r100   827    0   827    0     0   171k      0 --:--:-- --:--:-- --:--:--  403k\n}",
+                                          "Start": "2024-04-10T00:32:09.203193259-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:39.505212567-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Sonarr\",\n  \"instanceName\": \"Sonarr\",\n  \"version\": \"4.0.3.1413\",\n  \"buildTime\": \"2024-04-01T05:13:46Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/sonarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"main\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 205,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.13\",\n  \"runtimeName\": \".NET\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"4.0.3.1413-ls233\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\",\n  \"databaseVersion\": \"3.44.2\",\n  \"databaseType\": \"sqLite\"\n}\r100   827    0   827    0     0   239k      0 --:--:-- --:--:-- --:--:--  403k\n",
+                                          "Start": "2024-04-10T00:32:39.466662154-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:09.727290654-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "{\n  \"appName\": \"Sonarr\",\n  \"instanceName\": \"Sonarr\",\n  \"version\": \"4.0.3.1413\",\n  \"buildTime\": \"2024-04-01T05:13:46Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/sonarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"main\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 205,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.13\",\n  \"runtimeName\": \".NET\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"4.0.3.1413-ls233\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\",\n  \"databaseVersion\": \"3.44.2\",\n  \"databaseType\": \"sqLite\"\n}  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   827    0   827    0     0   209k      0 --:--:-- --:--:-- --:--:--  403k\n",
+                                          "Start": "2024-04-10T00:33:09.680852931-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14497,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:53.841004573Z",
+                              "StartedTs": 1712725853,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "b7506588b8da7a3bb2c4f9b9cd8c1482bb6eb1562295b743693da1c88bdb8c71",
+                          "image": "linuxserver/sonarr:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "c5391bf03070_sonarr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725853
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 4.2.3-ls157 Build-date:- 2024-04-04T01:32:01+00:00",
+                              "com.docker.compose.config-hash": "02f13fb9f229a90202002be3a209a942941f5a430c36b730b62a6c13c819ec45",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:8b176223592adb27f32b407f71ef09f67762afb8afee01d87daab5054cbc585d",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "e243ae5809fa2b5265d1af154d488bbfb32663ced4555f11289b8992dc7f596f",
+                              "com.docker.compose.service": "sabnzbd",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-04T01:32:01+00:00",
+                              "org.opencontainers.image.description": "[Sabnzbd](http://sabnzbd.org/) makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-sabnzbd",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "f8bfa5efa02f44365c086b1bf2e406d82613b8cf",
+                              "org.opencontainers.image.revision": "f8bfa5efa02f44365c086b1bf2e406d82613b8cf",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-sabnzbd",
+                              "org.opencontainers.image.title": "Sabnzbd",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-sabnzbd/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "4.2.3-ls157",
+                              "swag": "enable",
+                              "swag_port": "8070",
+                              "swag_url": "nzbd.appkins.io"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14550,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:54.18207559Z",
+                              "StartedTs": 1712725854,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "5572dc4e512a8d8dd1763dc0e7597f93ebe8fc519c7450a8f80ba63ddfc8fdcc",
+                          "image": "linuxserver/sabnzbd:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "e243ae5809fa_sabnzbd",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes",
+                          "up_time": 1712725854
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 0.3.21.2475-ls99 Build-date:- 2024-04-04T04:22:02+00:00",
+                              "com.docker.compose.config-hash": "be666b616db7abbd288bad4e744b5161554471cd44979ecd5a8932058fdbfe51",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:88c6fe1b02c0dcb80eb789823e433c1f7e027e467e312ab53987032cb36c42a6",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "c17e3f1b66324df473678e4d28da47a54fc2a37c79c364bd303f59a8a8739031",
+                              "com.docker.compose.service": "readarr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "Roxedus,thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-04T04:22:02+00:00",
+                              "org.opencontainers.image.description": "[Readarr](https://github.com/Readarr/Readarr) - Book Manager and Automation (Sonarr for Ebooks)  ",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-readarr",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "5417c2c984f49dd00d2ca937b334085ba5fb48fb",
+                              "org.opencontainers.image.revision": "5417c2c984f49dd00d2ca937b334085ba5fb48fb",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-readarr",
+                              "org.opencontainers.image.title": "Readarr",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-readarr/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "0.3.21.2475-ls99",
+                              "swag": "enable",
+                              "swag_port": "8787"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:08.219568672-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Readarr\",\n  \"instanceName\": \"Readarr\",\n  \"version\": \"0.3.21.2475\",\n  \"buildTime\": \"2024-03-22T10:37:30Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/readarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 158,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"0.3.21.2475-ls99\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   842    0   842    0     0   173k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:31:08.174069194-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:38.648158593-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Readarr\",\n  \"instanceName\": \"Readarr\",\n  \"version\": \"0.3.21.2475\",\n  \"buildTime\": \"2024-03-22T10:37:30Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/readarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 158,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"0.3.21.2475-ls99\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   842    0   842    0     0   227k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:31:38.604115658-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:09.012158805-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Readarr\",\n  \"instanceName\": \"Readarr\",\n  \"version\": \"0.3.21.2475\",\n  \"buildTime\": \"2024-03-22T10:37:30Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/readarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 158,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"0.3.21.2475-ls99\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   842    0   842    0     0   237k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:32:08.969045526-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:39.334722178-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Readarr\",\n  \"instanceName\": \"Readarr\",\n  \"version\": \"0.3.21.2475\",\n  \"buildTime\": \"2024-03-22T10:37:30Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/readarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 158,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"0.3.21.2475-ls99\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   842    0   842    0     0   210k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:32:39.284420095-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:09.721937981-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Readarr\",\n  \"instanceName\": \"Readarr\",\n  \"version\": \"0.3.21.2475\",\n  \"buildTime\": \"2024-03-22T10:37:30Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/readarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 158,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:39Z\",\n  \"packageVersion\": \"0.3.21.2475-ls99\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   842    0   842    0     0   214k      0 --:--:-- --:--:-- --:--:--  411k\n}",
+                                          "Start": "2024-04-10T00:33:09.680850371-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14615,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:54.598359727Z",
+                              "StartedTs": 1712725854,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "83112a2bdac5e1cfaa3aa290e5dff70029c9bd524201e3d3706a5909476f54bd",
+                          "image": "linuxserver/readarr:develop",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "c17e3f1b6632_readarr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725854
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 2.2.3.4098-ls147 Build-date:- 2024-04-10T02:01:25+00:00",
+                              "com.docker.compose.config-hash": "a75733b8d7dba64cf440d03c97d86cc9898adf6f3a11ab8c14b2278ab7a12332",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:2370fe03fc9ad4fd17d7409be316ff304df0d916f414f7436410982caedce1cd",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "41a6f3f8c7e5e349f252bd3878b63f1577d4fddd840b56bacda646c9427b791a",
+                              "com.docker.compose.service": "lidarr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "Roxedus,thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-10T02:01:25+00:00",
+                              "org.opencontainers.image.description": "[Lidarr](https://github.com/lidarr/Lidarr) is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new tracks from your favorite artists and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-lidarr",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "2478559703fac8d7bf43f57fa0b1e9274d2d92c8",
+                              "org.opencontainers.image.revision": "2478559703fac8d7bf43f57fa0b1e9274d2d92c8",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-lidarr",
+                              "org.opencontainers.image.title": "Lidarr",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-lidarr/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "2.2.3.4098-ls147",
+                              "swag": "enable",
+                              "swag_port": "8686"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:08.426899032-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Lidarr\",\n  \"instanceName\": \"Lidarr\",\n  \"version\": \"2.2.3.4098\",\n  \"buildTime\": \"2024-03-14T14:26:07Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/lidarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 78,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:30Z\",\n  \"packageVersion\": \"2.2.3.4098-ls147\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   837    0   837    0     0   234k      0 --:--:-- --:--:-- --:--:--  408k\n}",
+                                          "Start": "2024-04-10T00:31:08.388647518-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:38.859378804-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   837    0   837    0     0   180k      0 --:--:-- --:--:-- --:--:--  408k\n{\n  \"appName\": \"Lidarr\",\n  \"instanceName\": \"Lidarr\",\n  \"version\": \"2.2.3.4098\",\n  \"buildTime\": \"2024-03-14T14:26:07Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/lidarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 78,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:30Z\",\n  \"packageVersion\": \"2.2.3.4098-ls147\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n}",
+                                          "Start": "2024-04-10T00:31:38.81513471-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:09.248045879-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Lidarr\",\n  \"instanceName\": \"Lidarr\",\n  \"version\": \"2.2.3.4098\",\n  \"buildTime\": \"2024-03-14T14:26:07Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/lidarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 78,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:30Z\",\n  \"packageVersion\": \"2.2.3.4098-ls147\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   837    0   837    0     0   160k      0 --:--:-- --:--:-- --:--:--  272k\n}",
+                                          "Start": "2024-04-10T00:32:09.203174359-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:39.508668749-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Lidarr\",\n  \"instanceName\": \"Lidarr\",\n  \"version\": \"2.2.3.4098\",\n  \"buildTime\": \"2024-03-14T14:26:07Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/lidarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 78,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:30Z\",\n  \"packageVersion\": \"2.2.3.4098-ls147\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   837    0   837    0     0   178k      0 --:--:-- --:--:-- --:--:--  272k\n}",
+                                          "Start": "2024-04-10T00:32:39.466648804-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:09.732534757-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Lidarr\",\n  \"instanceName\": \"Lidarr\",\n  \"version\": \"2.2.3.4098\",\n  \"buildTime\": \"2024-03-14T14:26:07Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/lidarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"develop\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 78,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:30Z\",\n  \"packageVersion\": \"2.2.3.4098-ls147\",\n  \"packageAuthor\": \"[linuxserver.io](https://www.linuxserver.io/)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   837    0   837    0     0   219k      0 --:--:-- --:--:-- --:--:--  408k\n}",
+                                          "Start": "2024-04-10T00:33:09.697599666-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14278,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:52.00904124Z",
+                              "StartedTs": 1712725852,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "c8f9a1a702ba0ddbbca0f06b8632ec8f59d1c2a05b1082a92790249e7c59a365",
+                          "image": "linuxserver/lidarr:develop",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "41a6f3f8c7e5_lidarr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725852
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 4.6.4-r0-ls323 Build-date:- 2024-04-07T06:52:42+00:00",
+                              "com.docker.compose.config-hash": "d398c0b8c25a30946c7651c7f54ac96b9ecdfc4fb15301c30cfcde7f01f3531f",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:ca101c975d4148cd8a9849f0e00185bfb85cdb4a76c55b9205f367cbc49fb4bd",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "33cf0fec91fa95c46f53ab62c9f2921a9f7662debabfb19f70166e0916459da8",
+                              "com.docker.compose.service": "qbittorrent",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-07T06:52:42+00:00",
+                              "org.opencontainers.image.description": "The [Qbittorrent](https://www.qbittorrent.org/) project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-qbittorrent",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "68036d9a8c59565be86ac771ac5d5576c7868fba",
+                              "org.opencontainers.image.revision": "68036d9a8c59565be86ac771ac5d5576c7868fba",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-qbittorrent",
+                              "org.opencontainers.image.title": "Qbittorrent",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-qbittorrent/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "4.6.4-r0-ls323",
+                              "swag": "enable",
+                              "swag_port": "8090",
+                              "swag_url": "qbt.appkins.io"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14443,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:53.288474379Z",
+                              "StartedTs": 1712725853,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "be9d2786f79c1e6600845ea77b7dca5f533419e43e7906a34280804802822eaf",
+                          "image": "linuxserver/qbittorrent:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "33cf0fec91fa_qbittorrent",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes",
+                          "up_time": 1712725853
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 5.3.6.8612-ls212 Build-date:- 2024-04-07T16:57:57+00:00",
+                              "com.docker.compose.config-hash": "8843bde56ba6089c942356200b356253e1781b554a795526e5adbdc2c7613585",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "vpn:service_healthy:false",
+                              "com.docker.compose.image": "sha256:6a78008faf19aabec771402665d7111202ec10bfe0983fb560d04eef1f629f7f",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "958792a6d61be14b0aa21d329063412bdd9e775acaf434b2adc5322cda832f46",
+                              "com.docker.compose.service": "radarr",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "Roxedus,thespad",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-07T16:57:57+00:00",
+                              "org.opencontainers.image.description": "[Radarr](https://github.com/Radarr/Radarr) - A fork of Sonarr to work with movies à la Couchpotato.  ",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-radarr",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "0486dc1d7b431e64d041b2ce3fe26bf6c5a71640",
+                              "org.opencontainers.image.revision": "0486dc1d7b431e64d041b2ce3fe26bf6c5a71640",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-radarr",
+                              "org.opencontainers.image.title": "Radarr",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-radarr/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "5.3.6.8612-ls212",
+                              "swag": "enable",
+                              "swag_address": "127.0.0.1",
+                              "swag_port": "7878"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {}
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:08.219575192-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Radarr\",\n  \"instanceName\": \"Radarr\",\n  \"version\": \"5.3.6.8612\",\n  \"buildTime\": \"2024-02-18T17:07:49Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/radarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 235,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:42Z\",\n  \"packageVersion\": \"5.3.6.8612-ls212\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   832    0   832    0     0   189k      0 --:--:-- --:--:-- --:--:--  406k\n}",
+                                          "Start": "2024-04-10T00:31:08.174035495-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:38.543513638-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   832    0   832    0     0   241k      0 --:--:-- --:--:-- --:--:--  406k\n{\n  \"appName\": \"Radarr\",\n  \"instanceName\": \"Radarr\",\n  \"version\": \"5.3.6.8612\",\n  \"buildTime\": \"2024-02-18T17:07:49Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/radarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 235,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:42Z\",\n  \"packageVersion\": \"5.3.6.8612-ls212\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\"\n}",
+                                          "Start": "2024-04-10T00:31:38.499310454-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:08.817968897-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100   832    0   832    0     0   241k      0 --:--:-- --:--:-- --:--:--  406k\n{\n  \"appName\": \"Radarr\",\n  \"instanceName\": \"Radarr\",\n  \"version\": \"5.3.6.8612\",\n  \"buildTime\": \"2024-02-18T17:07:49Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/radarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 235,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:42Z\",\n  \"packageVersion\": \"5.3.6.8612-ls212\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\"\n}",
+                                          "Start": "2024-04-10T00:32:08.777901543-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:39.119307879-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Radarr\",\n  \"instanceName\": \"Radarr\",\n  \"version\": \"5.3.6.8612\",\n  \"buildTime\": \"2024-02-18T17:07:49Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/radarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 235,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:42Z\",\n  \"packageVersion\": \"5.3.6.8612-ls212\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   832    0   832    0     0   138k      0 --:--:-- --:--:-- --:--:--  203k\n}",
+                                          "Start": "2024-04-10T00:32:39.07417508-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:09.596220774-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\n  \"appName\": \"Radarr\",\n  \"instanceName\": \"Radarr\",\n  \"version\": \"5.3.6.8612\",\n  \"buildTime\": \"2024-02-18T17:07:49Z\",\n  \"isDebug\": false,\n  \"isProduction\": true,\n  \"isAdmin\": false,\n  \"isUserInteractive\": true,\n  \"startupPath\": \"/app/radarr/bin\",\n  \"appData\": \"/config\",\n  \"osName\": \"alpine\",\n  \"osVersion\": \"3.19.1\",\n  \"isNetCore\": true,\n  \"isLinux\": true,\n  \"isOsx\": false,\n  \"isWindows\": false,\n  \"isDocker\": true,\n  \"mode\": \"console\",\n  \"branch\": \"master\",\n  \"databaseType\": \"sqLite\",\n  \"databaseVersion\": \"3.44.2\",\n  \"authentication\": \"basic\",\n  \"migrationVersion\": 235,\n  \"urlBase\": \"\",\n  \"runtimeVersion\": \"6.0.25\",\n  \"runtimeName\": \"netcore\",\n  \"startTime\": \"2024-04-10T05:11:42Z\",\n  \"packageVersion\": \"5.3.6.8612-ls212\",\n  \"packageAuthor\": \"[linuxserver.io](https://linuxserver.io)\",\n  \"packageUpdateMechanism\": \"docker\"\n\r100   832    0   832    0     0   255k      0 --:--:-- --:--:-- --:--:--  406k\n}",
+                                          "Start": "2024-04-10T00:33:09.541201895-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 14327,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:52.285015859Z",
+                              "StartedTs": 1712725852,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725803,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "cf1fa28e96c8f6d87693ebeeba6c5db5169a83b8ae6770ac34918533bcb73a1c",
+                          "image": "linuxserver/radarr:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "958792a6d61b_radarr",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725852
+                      },
+                      {
+                          "Labels": {
+                              "com.docker.compose.config-hash": "595b06188b3388523914f71b7bd5d8cdfd141a674912487c79897d29a575fae9",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:37c4b391ed5150885451d5868bc0e155c3225e5e1a1afb3ce05f0a85e1cef4c4",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "3bd62ade1c3724368469ceac161b416077eb886fed2c05c03a9a1d4f7168e1ee",
+                              "com.docker.compose.service": "tautulli",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "Tautulli",
+                              "swag": "enable",
+                              "swag_port": "8181"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "d58b7efd8ce61c2813b60d005cee0676aba62629c1c6f3b2c1ce818fb2ccc18d",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.2",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:02",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:31:17.724511026-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:31:17.681698515-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:31:47.988493779-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:31:47.945806877-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:18.229699058-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:32:18.185950391-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:32:48.500234717-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:32:48.458864559-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:18.760091231-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "",
+                                          "Start": "2024-04-10T00:33:18.706900283-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 13008,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:32.154451916Z",
+                              "StartedTs": 1712725832,
+                              "Status": "running"
+                          },
+                          "cmd": "./start.sh python Tautulli.py --datadir /config",
+                          "created": 1712725788,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "3ef574a028a1a0608a6d42826013ba18d4432a6af108e0b258eb2510e13c2ad8",
+                          "image": "ghcr.io/tautulli/tautulli",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "3bd62ade1c37_tautulli",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725832
+                      },
+                      {
+                          "Labels": {
+                              "autoheal": "true",
+                              "com.centurylinklabs.watchtower.enable": "false",
+                              "com.docker.compose.config-hash": "d769ff4ecc75b2bbec212fe59086870fa1052e48890b3c63f9249fc0da04b3aa",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:a9936f2983239757fadb24f8cfd8c3d81d53350a3470cbf4bf4175ce4d7b5526",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "c4f12d646dc7a520af1053022221ac6a988288a25eb2c31ca4add9d2e9a9407a",
+                              "com.docker.compose.service": "vpn",
+                              "com.docker.compose.version": "2.23.3",
+                              "org.opencontainers.image.authors": "quentin.mcgaw@gmail.com",
+                              "org.opencontainers.image.created": "2024-04-08T07:43:05.096Z",
+                              "org.opencontainers.image.description": "VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.",
+                              "org.opencontainers.image.documentation": "https://github.com/qdm12/gluetun",
+                              "org.opencontainers.image.licenses": "MIT",
+                              "org.opencontainers.image.revision": "7b4befce61a56d945c3558188d79a856ba22880a",
+                              "org.opencontainers.image.source": "https://github.com/qdm12/gluetun",
+                              "org.opencontainers.image.title": "gluetun",
+                              "org.opencontainers.image.url": "https://github.com/qdm12/gluetun",
+                              "org.opencontainers.image.version": "latest"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "e50cc13ecf752fec984d9d21d9a64c300c7a5c663dc52a2656fe67ea2175fc6f",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.4",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:04",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "Health": {
+                                  "FailingStreak": 0,
+                                  "Log": [
+                                      {
+                                          "End": "2024-04-10T00:33:03.271129169-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "--2024-04-10 00:33:02--  https://am.i.mullvad.net/connected\nResolving am.i.mullvad.net (am.i.mullvad.net)... 45.83.223.233\nConnecting to am.i.mullvad.net (am.i.mullvad.net)|45.83.223.233|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 87 [text/plain]\nSaving to: 'STDOUT'\n\n     0K                                                       100% 81.3M=0s\n\n2024-04-10 00:33:03 (81.3 MB/s) - written to stdout [87/87]\n\n",
+                                          "Start": "2024-04-10T00:33:02.712108276-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:09.096709797-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "--2024-04-10 00:33:08--  https://am.i.mullvad.net/connected\nResolving am.i.mullvad.net (am.i.mullvad.net)... 45.83.223.233\nConnecting to am.i.mullvad.net (am.i.mullvad.net)|45.83.223.233|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 87 [text/plain]\nSaving to: 'STDOUT'\n\n     0K                                                       100% 73.4M=0s\n\n2024-04-10 00:33:09 (73.4 MB/s) - written to stdout [87/87]\n\n",
+                                          "Start": "2024-04-10T00:33:08.535383075-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:14.920590643-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "--2024-04-10 00:33:14--  https://am.i.mullvad.net/connected\nResolving am.i.mullvad.net (am.i.mullvad.net)... 45.83.223.233\nConnecting to am.i.mullvad.net (am.i.mullvad.net)|45.83.223.233|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 87 [text/plain]\nSaving to: 'STDOUT'\n\n     0K                                                       100% 61.5M=0s\n\n2024-04-10 00:33:14 (61.5 MB/s) - written to stdout [87/87]\n\n",
+                                          "Start": "2024-04-10T00:33:14.367147181-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:20.730025273-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "--2024-04-10 00:33:20--  https://am.i.mullvad.net/connected\nResolving am.i.mullvad.net (am.i.mullvad.net)... 45.83.223.233\nConnecting to am.i.mullvad.net (am.i.mullvad.net)|45.83.223.233|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 87 [text/plain]\nSaving to: 'STDOUT'\n\n     0K                                                       100% 74.1M=0s\n\n2024-04-10 00:33:20 (74.1 MB/s) - written to stdout [87/87]\n\n",
+                                          "Start": "2024-04-10T00:33:20.161800527-05:00"
+                                      },
+                                      {
+                                          "End": "2024-04-10T00:33:26.525011058-05:00",
+                                          "ExitCode": 0,
+                                          "Output": "--2024-04-10 00:33:26--  https://am.i.mullvad.net/connected\nResolving am.i.mullvad.net (am.i.mullvad.net)... 45.83.223.233\nConnecting to am.i.mullvad.net (am.i.mullvad.net)|45.83.223.233|:443... connected.\nHTTP request sent, awaiting response... 200 OK\nLength: 87 [text/plain]\nSaving to: 'STDOUT'\n\n     0K                                                       100% 88.3M=0s\n\n2024-04-10 00:33:26 (88.3 MB/s) - written to stdout [87/87]\n\n",
+                                          "Start": "2024-04-10T00:33:25.971070219-05:00"
+                                      }
+                                  ],
+                                  "Status": "healthy"
+                              },
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 13381,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:35.583192441Z",
+                              "StartedTs": 1712725835,
+                              "Status": "running"
+                          },
+                          "cmd": "/gluetun-entrypoint",
+                          "created": 1712725788,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "1ed763276ec9891b3cc49f7a2e464b20af3ae2ee9a4c2f9df064b42684c9dda3",
+                          "image": "ghcr.io/qdm12/gluetun:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "c4f12d646dc7_vpn",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes (healthy)",
+                          "up_time": 1712725835
+                      },
+                      {
+                          "Labels": {
+                              "com.docker.compose.config-hash": "b2ad09b2bc8520de6ad004502319a8feb7b269e0b4f6103178a040e0d5292d31",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:d6414b470cf22f0c764d673efe7a64bb0a17f35db152dabf03a4a598ddb4053b",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "df641734591be195bdb5303bd4f0bb653fba82c134893a5fb1881e7fa80fb721",
+                              "com.docker.compose.service": "dockerproxy",
+                              "com.docker.compose.version": "2.23.3",
+                              "org.opencontainers.image.created": "2024-04-05T19:10:22.929Z",
+                              "org.opencontainers.image.description": "Proxy over your Docker socket to restrict which requests it accepts",
+                              "org.opencontainers.image.licenses": "Apache-2.0",
+                              "org.opencontainers.image.revision": "45f7fb01df827c1072c9e9b8f6a307dc6eb0de8a",
+                              "org.opencontainers.image.source": "https://github.com/Tecnativa/docker-socket-proxy",
+                              "org.opencontainers.image.title": "docker-socket-proxy",
+                              "org.opencontainers.image.url": "https://github.com/Tecnativa/docker-socket-proxy",
+                              "org.opencontainers.image.version": "0.1.2"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "7f1a3d088825dbbaf31102098ed58c6b61d6e0154d8ea986e2f706200d8d0940",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.3",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:03",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 12882,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:31.605639523Z",
+                              "StartedTs": 1712725831,
+                              "Status": "running"
+                          },
+                          "cmd": "docker-entrypoint.sh haproxy -f /usr/local/etc/haproxy/haproxy.cfg",
+                          "created": 1712725788,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "440a9838571e81c62239d427b0304bb5dcbdedce0aaa547f8ac3ba19ac2fecf6",
+                          "image": "ghcr.io/tecnativa/docker-socket-proxy:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "df641734591b_dockerproxy",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes",
+                          "up_time": 1712725831
+                      },
+                      {
+                          "Labels": {
+                              "build_version": "Linuxserver.io version:- 1.40.1.8227-c0dd5a73e-ls212 Build-date:- 2024-04-08T09:19:44+00:00",
+                              "com.docker.compose.config-hash": "49f66fcc677da26e948aae66fe35d346952988415a5dc68ee6c03c990525aeb5",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:555cb7d1d80fc3b6821172177fd1f8ca2c1fe3c1d9b8cfdb6eeca384075e0256",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "servarr",
+                              "com.docker.compose.project.config_files": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr/docker-compose.yaml",
+                              "com.docker.compose.project.working_dir": "/volume1/projects/portainer-compose-unpacker/stacks/servarr/synology-config/projects/servarr",
+                              "com.docker.compose.replace": "664d0845d5a50979102bd7bd4763ecd8591b2e14053755bcb62580d9f6c2b3cc",
+                              "com.docker.compose.service": "plex",
+                              "com.docker.compose.version": "2.23.3",
+                              "maintainer": "thelamer",
+                              "org.opencontainers.image.authors": "linuxserver.io",
+                              "org.opencontainers.image.created": "2024-04-08T09:19:44+00:00",
+                              "org.opencontainers.image.description": "[Plex](https://plex.tv) organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. Straightforward design and bulk actions mean getting things done faster.",
+                              "org.opencontainers.image.documentation": "https://docs.linuxserver.io/images/docker-plex",
+                              "org.opencontainers.image.licenses": "GPL-3.0-only",
+                              "org.opencontainers.image.ref.name": "0403f38ad4821d52952371c8b9bd75a64aa1bda9",
+                              "org.opencontainers.image.revision": "0403f38ad4821d52952371c8b9bd75a64aa1bda9",
+                              "org.opencontainers.image.source": "https://github.com/linuxserver/docker-plex",
+                              "org.opencontainers.image.title": "Plex",
+                              "org.opencontainers.image.url": "https://github.com/linuxserver/docker-plex/packages",
+                              "org.opencontainers.image.vendor": "linuxserver.io",
+                              "org.opencontainers.image.version": "1.40.1.8227-c0dd5a73e-ls212",
+                              "swag": "enable",
+                              "swag_port": "32400"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "servarr": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "d6dd0ac7678c2eb245c05ca1184f6ad18248b5343778ed85b0f80e0a8550c581",
+                                      "Gateway": "172.29.0.1",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "172.29.0.5",
+                                      "IPPrefixLen": 16,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "02:42:ac:1d:00:05",
+                                      "NetworkID": "182831f8837c26135ec40ce1d422b30c78df0534e2e1b218a17708c88871209d"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "0001-01-01T00:00:00Z",
+                              "FinishedTs": -62135596800,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 13441,
+                              "Restarting": false,
+                              "Running": true,
+                              "StartedAt": "2024-04-10T05:10:35.876981002Z",
+                              "StartedTs": 1712725835,
+                              "Status": "running"
+                          },
+                          "cmd": "/init",
+                          "created": 1712725788,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": -62135596800,
+                          "id": "6677cbe4e0719ac140f5ac955f8a8b46aecbeca1b1bbbcbc5bea2f7488e96196",
+                          "image": "linuxserver/plex:latest",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "664d0845d5a5_plex",
+                          "services": null,
+                          "status": "running",
+                          "up_status": "Up 22 minutes",
+                          "up_time": 1712725835
+                      },
+                      {
+                          "Labels": {
+                              "com.docker.compose.config-hash": "a847e31215b446f4e92a26b3ff9fb15da0730464123f882de0d8d4d7b719543c",
+                              "com.docker.compose.container-number": "1",
+                              "com.docker.compose.depends_on": "",
+                              "com.docker.compose.image": "sha256:9eb4e69a801b9c97062ec8c8faed746afba428a71c70ce7b280e0384aa536f1b",
+                              "com.docker.compose.oneoff": "False",
+                              "com.docker.compose.project": "test",
+                              "com.docker.compose.project.config_files": "/data/compose/73/v1/docker-compose.yml",
+                              "com.docker.compose.project.working_dir": "/data/compose/73/v1",
+                              "com.docker.compose.service": "test",
+                              "com.docker.compose.version": "2.24.6"
+                          },
+                          "NetworkSettings": {
+                              "Networks": {
+                                  "test_default": {
+                                      "Aliases": null,
+                                      "DriverOpts": null,
+                                      "EndpointID": "",
+                                      "Gateway": "",
+                                      "GlobalIPv6Address": "",
+                                      "GlobalIPv6PrefixLen": 0,
+                                      "IPAMConfig": null,
+                                      "IPAddress": "",
+                                      "IPPrefixLen": 0,
+                                      "IPv6Gateway": "",
+                                      "Links": null,
+                                      "MacAddress": "",
+                                      "NetworkID": "9fcbb7991593b89241c22b64cd7df70f1d4c08aaaa6e0210ff8fe2234a1389fc"
+                                  }
+                              }
+                          },
+                          "State": {
+                              "Dead": false,
+                              "Error": "",
+                              "ExitCode": 0,
+                              "FinishedAt": "2024-04-10T05:06:15.905683567Z",
+                              "FinishedTs": 1712725575,
+                              "OOMKilled": false,
+                              "Paused": false,
+                              "Pid": 0,
+                              "Restarting": false,
+                              "Running": false,
+                              "StartedAt": "2024-04-10T05:06:15.851260296Z",
+                              "StartedTs": 1712725575,
+                              "Status": "exited"
+                          },
+                          "cmd": "docker-entrypoint.sh bash -c 'cat /file.txt'",
+                          "created": 1712725573,
+                          "enable_service_portal": false,
+                          "exporting": false,
+                          "finish_time": 1712725575,
+                          "id": "1b0e8fb4e85933a04b67225e852d4d40d2f4e48458c97ed50cc09e635ead3a99",
+                          "image": "bash",
+                          "is_ddsm": false,
+                          "is_package": false,
+                          "name": "test",
+                          "services": null,
+                          "status": "stopped",
+                          "up_status": "Exited (0) 27 minutes ago",
+                          "up_time": 1712725575
+                      }
+                  ],
+                  "limit": 16,
+                  "offset": 0,
+                  "total": 16
+              },
+              "method": "list",
+              "success": true,
+              "version": 1
+          }
+      ]
+  },
+  "success": true
+}
